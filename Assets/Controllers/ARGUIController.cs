@@ -10,10 +10,11 @@ using System;
 using View.UI;
 using Models;
 using System.Linq;
+using Assets.UI;
 
 //TODO: #urgent Check DB for animations -> replacemente pieces
 //TODO: Set Standby state of 3D model when come back to AR menu (when close animations/procidures)
-namespace Controllers
+namespace Assets.Controllers
 {
     public class ARGUIController : MonoBehaviour
     {
@@ -26,7 +27,7 @@ namespace Controllers
         GameObject PopUpMenu;
         GameObject UIFooter;
         GameObject ARInfoPanel;
-        GameObject ARMenuPanel;
+        GameObject ARMenuPanel, IntroPanel;
         GameObject SelectionModePanel;
         GameObject TargetInstructivePanel;
         GameObject StartButton;
@@ -55,6 +56,7 @@ namespace Controllers
         void Start()
         {
             InitScene();
+            InitIntroPanel();
             InitSelectionModePanel();
             Init3DModel();
             InitFooter();
@@ -88,6 +90,24 @@ namespace Controllers
             trackable.OnTargetStatusChanged += OnTrackableStatusChanged;
             InitWelcomePanel();
         }
+
+        private void InitIntroPanel()
+        {
+            IntroPanel = GameObject.Find("IntroPanel");
+            IntroPanel.SetActive(false);
+            IntroPanel.GetComponent<IntroManager>().EndCarrouselAction(() =>
+            {
+                IntroPanel.SetActive(false);
+                SelectionModePanel.SetActive(true);
+            });
+            // GameObject OKButton = IntroPanel.transform.Find("OKButton").gameObject;
+            // OKButton.GetComponent<UIButton>().Init("OK", () =>
+            // {
+            // SelectionModePanel.SetActive(true);
+            // IntroPanel.SetActive(false);
+            // });
+        }
+
         void InitSelectionModePanel()
         {
             GameObject ImageTargetBttn = SelectionModePanel.transform.Find("ImageTargetBttn").gameObject;
@@ -153,11 +173,11 @@ namespace Controllers
             else WelcomePanel.SetActive(false);
 
             StartButton = WelcomePanel.transform.Find("StartButton").gameObject;
-            StartButton.GetComponent<UIButton>().Init("OK", () =>
+            StartButton.GetComponent<UIButton>().Init("Iniciar", () =>
             {
                 AppController.Instance.ShowInstructive = false;
                 WelcomePanel.SetActive(false);
-                SelectionModePanel.SetActive(true);
+                IntroPanel.SetActive(true);
             });
         }
 
