@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554641b0f014da3a3165dba6ed386b, type: 3}
+  m_Name: IntroCardData-Slide 4
+  m_EditorClassIdentifier: 
+  cardImage: {fileID: 21300000, guid: 5b0d145b5cc3f409cbc3e7dc3917980b, type: 3}
+  cardTitle: "Modos de Activaci\xF3n de RA"
+  cardDescription: "Activa la realidad aumentada de dos formas: \n1. Escaneando una
+    imagen.\n2. Detectando la prensa con la c\xE1mara.\n"
+  cardIndex: 3

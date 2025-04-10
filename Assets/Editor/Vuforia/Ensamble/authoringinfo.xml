@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="9.8.5">
+<ModelTarget name="Ensamble" targetId="d9191bcb51c845dcb0a6c0db18cd4969" version="11.1" toolVersion="9.8.5" bbox="-0.054392 0.001082 -0.062315 0.051608 0.031082 0.042548" previewImage="d9191bcb51c845dcb0a6c0db18cd4969_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Ensambles_assembly" assemblyId="9a4b7bf3ad834e2fbf6c8ee781f98846">
+<Part name="Ensamble" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0002" translation="-0.0167109 0.00899811 0.238887" rotation="AD: -0.8653730443542959 -0.5724728344880815 1.935109800706731 166.699" image="Ensamble_viewpoint_0002.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

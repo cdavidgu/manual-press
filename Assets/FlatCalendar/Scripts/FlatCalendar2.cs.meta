@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: bdad0b3c8ddc8444b8df25983b639143
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - btn_nextYear: {instanceID: 0}
+  - btn_prevYear: {instanceID: 0}
+  - btn_nextMonth: {instanceID: 0}
+  - btn_prevMonth: {instanceID: 0}
+  - btn_calendar: {instanceID: 0}
+  - btn_showEvents: {instanceID: 0}
+  - label_year: {instanceID: 0}
+  - label_month: {instanceID: 0}
+  - label_dayOfWeek: {instanceID: 0}
+  - label_dayNumber: {instanceID: 0}
+  - label_numberEvents: {instanceID: 0}
+  - event_Visualizer: {instanceID: 0}
+  - btn_AddEventVisualizer: {instanceID: 0}
+  - addEvent_Visualizer: {instanceID: 0}
+  - field_Time: {instanceID: 0}
+  - field_Name: {instanceID: 0}
+  - field_Description: {instanceID: 0}
+  - btn_Confirm: {instanceID: 0}
+  - btn_Cancel: {instanceID: 0}
+  - btn_overrideEventsFile: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
