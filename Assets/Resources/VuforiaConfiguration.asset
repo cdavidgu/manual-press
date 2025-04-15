@@ -24,7 +24,7 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.29.6
-    eulaAcceptedVersions: '{"Values":["8.5","9.1","7.5","8.0","0.0","9.0","9.2","9.3","9.8","8.1","9.6","10.10","10.11","10.29"]}'
+    eulaAcceptedVersions: '{"Values":["8.5","9.1","7.5","8.0","0.0","9.0","9.2","9.3","9.8","8.1","9.6","10.10","10.11","10.29","11.1"]}'
   database:
     disableModelExtraction: 0
   shaders:
