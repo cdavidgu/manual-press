@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028292, g: 0.22571306, b: 0.30692118, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465781, g: 0.49641192, b: 0.574816, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2053773655216775963, guid: 1129acaf6f4bf40a2898de9968d70736, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -61.48413
+      value: -61.484375
       objectReference: {fileID: 0}
     - target: {fileID: 2053773655371050083, guid: 1129acaf6f4bf40a2898de9968d70736, type: 3}
       propertyPath: m_Pivot.x
@@ -1264,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.50024414, y: 0}
+  m_AnchoredPosition: {x: -0.5, y: 0}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367140203
@@ -1807,7 +1807,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: MarcadorME_02
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Muestra_Empresarial.xml
@@ -3005,7 +3004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.49975586, y: 0}
+  m_AnchoredPosition: {x: -0.5, y: 0}
   m_SizeDelta: {x: -1.0001, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056453370
@@ -3613,7 +3612,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: Ensamble
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Ensamble.xml
@@ -3625,17 +3623,14 @@ MonoBehaviour:
   mBBoxMin: {x: 0, y: 0, z: 0}
   mBBoxMax: {x: 0.2, y: 0.2, z: 0.2}
   mPreviewImage: {fileID: 2800000, guid: cde5316064f24eb29707acae0544eaed, type: 3}
-  mEnhanceRuntimeDetection: 0
+  mLength: 0.2
+  mWidth: 0.2
+  mHeight: 0.2
   m3DGuideViewModel: {fileID: 0}
   m2DGuideViewImage: {fileID: 2800000, guid: 8216c3d1ddc631b41a9b05d2983ba9a7, type: 3}
   mGuideViewDisplayMode: 1
   m2DGuideViewMaterial: {fileID: 0}
   m3DGuideViewMaterial: {fileID: 0}
-  mLength: 0.2
-  mWidth: 0.2
-  mHeight: 0.2
-  m2DGuideViewMaterials: []
-  m3DGuideViewMaterials: []
   mSelectedGuideView: viewpoint_0002
   mMotionHint: 0
   mTrackingMode: 0
@@ -3644,7 +3639,6 @@ MonoBehaviour:
   mHasRealisticTextures: 0
   mPreview: {fileID: 1197947174}
   mAutoValidationDataSetName: 
-  mGuideViewDisplayModeNeedsUpgrade: 0
 --- !u!4 &1197947173
 Transform:
   m_ObjectHideFlags: 0
@@ -3680,6 +3674,7 @@ MonoBehaviour:
   mTargetName: Ensamble
   mDatasetName: Vuforia/Ensamble.xml
   mCastedBehaviour: {fileID: 1197947172}
+  mModelScale: {x: 0.2, y: 0.2, z: 0.2}
   mModelTargetPreview: {fileID: 0}
 --- !u!1001 &1201636290
 PrefabInstance:
@@ -4193,7 +4188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.50024414, y: 0}
+  m_AnchoredPosition: {x: -0.5, y: 0}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331619144
@@ -4245,7 +4240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1341922804
 Transform:
   m_ObjectHideFlags: 0
@@ -5533,7 +5528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.50024414, y: 0}
+  m_AnchoredPosition: {x: -0.5, y: 0}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1661370985
@@ -6901,6 +6896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prensa
       objectReference: {fileID: 0}
+    - target: {fileID: 1622835360643357386, guid: 8a9df1df106dbf34083278f11ec7b461, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1622835361544634931, guid: 8a9df1df106dbf34083278f11ec7b461, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6956,6 +6955,10 @@ PrefabInstance:
     - target: {fileID: 1622835361544634931, guid: 8a9df1df106dbf34083278f11ec7b461, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622835361821193946, guid: 8a9df1df106dbf34083278f11ec7b461, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9df1df106dbf34083278f11ec7b461, type: 3}
