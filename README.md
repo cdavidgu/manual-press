@@ -65,6 +65,24 @@ The following architectural patterns were implemented to structured code impleme
 - On-site machine maintenance support.
 - Interactive manuals replacing traditional paper-based guides.
 
+## 📷 Screenshots
+### Object Tracking
+![ScreenRecording_05-01-2025 15-15-36_1](https://github.com/user-attachments/assets/fd07f6de-dd13-46cb-bd46-710bf9168662)
+#### Guided Maintenance Tasks
+![ScreenRecording_05-01-2025 15-15-36_1](https://github.com/user-attachments/assets/81c592b2-1dbf-4867-a0f2-d451f765712d)
+#### Guided User Manual
+![ScreenRecording_05-01-2025 15-15-36_1](https://github.com/user-attachments/assets/2bc1d17f-74e5-493e-a4d6-6f1700522286)
+#### Guided Commissioning Tasks
+![ScreenRecording_05-01-2025 15-15-36_1](https://github.com/user-attachments/assets/88717d6a-8555-49f0-b46f-a816f954b1eb)
+
+### Marker-Based Tracking
+![ScreenRecording_05-01-2025 16](https://github.com/user-attachments/assets/582d24b2-2310-42ec-b29f-7926b100fda2)
+
+![ScreenRecording_05-01-2025 15-18-00_1](https://github.com/user-attachments/assets/ab8c88f2-f77e-46c9-bd12-fcde93c231e6)
+
+### UI Elements 
+![ScreenRecording_05-01-2025 15-19-45_1](https://github.com/user-attachments/assets/ad0e43e7-183b-4dd3-93ae-76d4f22a21e4)
+
 ## 🛠️ Challenges & Solutions
 #### Challenge: Accurate AR tracking on real-world objects.
 **Solution:** Implemented high-quality object recognition using Vuforia’s advanced tracking algorithms.
